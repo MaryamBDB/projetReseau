@@ -5,6 +5,8 @@
  */
 package control;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 1895718
