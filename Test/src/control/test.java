@@ -17,6 +17,12 @@ public class test {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Bonjour");
+        // Demander la saisie du nom de l'utilisateur
+        System.out.println("Veuillez SVP saisir votre nom");
+        Scanner readln = new Scanner(System.in);
+        String nom = readln.next();
+        // Affichage du nom de l'utilisateur
+        System.out.println(nom);
     }
     
 }
